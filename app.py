@@ -1,6 +1,6 @@
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 
-from main.context.db_context import DBContext
+from context.db_context import DBContext
 
 i = DBContext()
 

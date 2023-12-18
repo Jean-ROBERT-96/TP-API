@@ -1,8 +1,8 @@
 from typing import Optional
 from fastapi import FastAPI, HTTPException
 from sqlmodel import Field, Session, SQLModel, create_engine, select
-from main.context.db_context import DBContext
-from main.entities.client import Client
+from context.db_context import DBContext
+from entities.client import Client
 
 #setup.py pour installer un packagecustom
 
